@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(270deg, red, rebeccapurple);
+    color: yellow;
+}
+
+#countDownTimer {
+    font-weight: bold;
+    font-size: large;
+    color: red;
+}
+
+#loginTitleStyle {
+    color: teal;
+}
+
+.blinking {
+
+    animation: opacity 2s ease-in-out infinite;
+    opacity: 1;
+}
+
+@keyframes opacity {
+  0% {
+      opacity: 1;
+  }
+
+  50% {
+      opacity: 0
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
+.lgButton {
+  width: 150px;
+  height: 30px;
+  background-color: white;
+  border-radius: 12px;
+  border-color: lightblue;
+}
